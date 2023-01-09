@@ -1,0 +1,51 @@
+<div class="intro">
+    {{ $cdn_url := .Scratch.Get "cdn_url" }}
+    {{ with .Site.Params.avatar}}
+    {{ $avatar := .}}
+   <div class="avatar">
+        <a href="/posts/"> <img src="{{ (printf "%s%s" $cdn_url $avatar)}}"> </a>
+    </div>
+    {{ end }}
+    {{ if or .Params.gravatar.Email (and .Site.Params.gravatar.Email (ne .Params.gravatar.Email false)) }}
+    <div class="avatar">
+			<a href="/posts/">	<img src="https://www.gravatar.com/avatar/{{ md5 .Site.Params.gravatar.email }}?s=240&d=mp" alt="gravatar"> </a>
+		</div>
+		{{ end }}
+    {{ with .Site.Params.subtitle}}
+    <h2 class="description">
+       {{ . }}
+    </h2>
+    {{ end }}
+    <div class="social-links">
+      {{ partial "social.html" . }}
+    </div>
+    <div style="margin: auto; max-width: 1000px; padding: 10px;">
+      <p>
+        We invite you to experience the benefits of our treatments for your total well-being.
+        Our professional and licensed staff will assist you in planning your perfect experience. We offer a variety of massages, body treatments, facial, nail, salon, and hair treatments.
+      </p>
+      <p>
+        For our facials, we use Skin Fitness Therapy facial products founded in 1996 with natural, eco-friendly ingredients and scientifically advanced correctives that produce dramatic results formulated to accelerate healing, rejuvenation, and revitalization of the skin using "Chiral Technology" to achieve corrective skin care without any harmful chemical additives.
+      </p>
+      <p>
+        Our massage center features three treatment rooms if you want to get away to relax or we offer villa service with a $25 surcharge per therapist for your comfort and convenience.
+      </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+      <h4 >
+        Tryall Beauty and Massage Center
+      </h4>
+      <p>
+        Tel: 876-956-5660 ext 4100
+      </p>
+      <p>
+        Fax: 876-956-7177
+      </p>
+      <p>
+        Email: tryallbeautyandmassagecenter@gmail.com
+      </p>
+    </div>
+</div>
