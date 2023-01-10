@@ -1,4 +1,4 @@
-baseURL = "tryallbeautyandmassage.com"
+baseURL = "https://tryallbeautyandmassage.com"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Tryall Beauty and Massage Center"
@@ -7,7 +7,9 @@ theme = "KeepIt"
 paginate = 12
 enableEmoji = true
 enableRobotsTXT = true
-googleAnalytics = ""
+[Params]
+googleAnalytics = "G-LP672MMZMD"
+
 disqusShortname = "yourdiscussshortname"
 
 [sitemap]
@@ -73,3 +75,10 @@ disqusShortname = "yourdiscussshortname"
 
 # Used only for Seo schema
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+[deployment]
+  order = [".jpg$", ".gif$"]
+
+  [[deployment.targets]]
+    name = "aws"
+    URL = "s3://tryallbeautyandmassage.com?region=us-east-1"

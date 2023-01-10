@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  {{ partial "head.html" . }}
+  <body class="">
+    <div class="wrapper">
+        {{ partial "header.html" . }}
+    	 <main class="main">
+          <div class="container">
+      		{{ block "content" . }}{{ end }}
+          </div>
+		   </main>
+      {{ partial "footer.html" . }}
+     </div>
+     <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}"></script>
+     <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+     
+       gtag('config', '{{ .Site.Params.googleAnalytics }}');
+     </script>
+  </body>
+</html>
