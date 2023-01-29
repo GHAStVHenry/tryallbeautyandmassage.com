@@ -1,6 +1,7 @@
 +++
 title = "Hand and Foot Care"
 date = "2023-01-01"
+pic = "manicure.jpeg"
 +++
 
 * Nail repair $15.00

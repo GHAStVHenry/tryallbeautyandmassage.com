@@ -1,6 +1,7 @@
 +++
 title = "Facials"
 date = "2023-01-01"
+pic = "facial.jpeg"
 +++
 
 ***Facials are best experienced in the Massage Center where the equipment is readily available. Other facials are available for estheticians to recommend based on idevidual skin conditions.***

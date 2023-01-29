@@ -1,6 +1,7 @@
 +++
 title = "Healing Therapies"
 date = "2023-01-01"
+pic = "massage.jpeg"
 +++
 
 ### Relax Swedish Massage:

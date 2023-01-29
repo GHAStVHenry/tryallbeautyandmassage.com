@@ -1,12 +1,13 @@
 +++
 title = "About"
 date = "2023-01-01"
+pic = ""
 +++
 
 # Scheduling Appintments
 Spa hours are 9:30am to 6:00pm Monday to Sunday except for public holidays.
 Please call to schedule an appointment.
-Our treatments are very popular with our guests, so we recommend that you schedule appointments at leastone day in advance.
+Our treatments are very popular with our guests, so we recommend that you schedule appointments at least one day in advance.
 Appointments are subject to availability.
 
 # Checkin for Treatments

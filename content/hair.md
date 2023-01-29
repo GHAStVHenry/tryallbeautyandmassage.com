@@ -1,6 +1,7 @@
 +++
 title = "Hair Services"
 date = "2023-01-01"
+pic = "hair.jpeg"
 +++
 
 Shampoo and set:

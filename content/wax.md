@@ -1,6 +1,7 @@
 +++
 title = "Waxing"
 date = "2023-01-01"
+pic = "waxing.jpeg"
 +++
 
 * Half leg $55.00
