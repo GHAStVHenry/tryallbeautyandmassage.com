@@ -48,9 +48,17 @@ disqusShortname = "yourdiscussshortname"
     url = "/facial"
     weight = 5
   [[menu.main]]
+    name = "Bridal Treatments"
+    url = "/bride"
+    weight = 6
+  [[menu.main]]
+    name = "Men's Treatments"
+    url = "/men"
+    weight = 7
+  [[menu.main]]
     name = "About"
     url = "/about"
-    weight = 6
+    weight = 8
 
 [params]
     since = 2023

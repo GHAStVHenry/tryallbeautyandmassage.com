@@ -1,0 +1,20 @@
+{{ define "content" }}
+<style>
+    img.pic {
+        width: 750px;
+        padding: 7px;
+        margin: auto;
+        border: 1px solid #ddd;
+        box-shadow: 4px 4px 5px #888;
+    }
+</style>
+<div class="post-warp archive">
+    <h2 class="post-title" style="text-align:right;padding-bottom:2em">{{ .Title }}</h2>
+    {{ if not (eq .Params.pic "") }}
+    <img src="../images/{{.Params.pic}}" id={{.Params.title}} alt="" class="pic">
+    {{ end }}
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+</div>
+{{end }}

@@ -26,7 +26,7 @@ Cancellations must be made directly with the Spa center.
 
 # Villa Service
 Upon request, any of our healing therapies, manicures, and pedicures may be done at your Villa.
-There is a minimum surcharge on out calls of $25.00 for Each Therapist.
+There is a minimum surcharge on out calls of $15.00 per service.
 
 ___
 **PRICES DO NOT INCLUDE TAX. 16.5% GCT**
